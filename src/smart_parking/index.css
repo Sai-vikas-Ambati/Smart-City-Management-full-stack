@@ -1,0 +1,294 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #333;
+  }
+  
+  .heading {
+    background-color: rgba(0, 123, 255, 0.8); /* Semi-transparent background */
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  main {
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+  }
+  
+  section {
+    margin-bottom: 30px;
+  }
+  
+  h2 {
+    color: #007bff;
+  }
+  
+  /* Parking Availability */
+  #parking-map {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+  
+  .parking-spot {
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #e9ecef;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .parking-spot.available {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .parking-spot.occupied {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .parking-spot:hover {
+    opacity: 0.9;
+  }
+  
+  /* Forms */
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  input, select, button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(51, 51, 51, 0.8); /* Semi-transparent background */
+    color: white;
+  }
+  
+  /* Wallet Styles */
+  #wallet {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  #wallet h2 {
+    margin-bottom: 10px;
+  }
+  
+  #wallet input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    width: 60%;
+  }
+  
+  #wallet button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #wallet button:hover {
+    background-color: #218838;
+  }
+  
+  /* Payment Page Styles */
+  .payment-page {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .left-side, .right-side {
+    flex: 1;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  .left-side h2, .right-side h2 {
+    margin-bottom: 10px;
+  }
+  
+  .payment-status {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  /* Exit Button */
+  .exit-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .exit-button:hover {
+    background-color: #c82333;
+  }
+  
+  /* Total Cost Display */
+  .total-cost {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  .total-cost p {
+    margin: 0;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .payment-page {
+      flex-direction: column;
+    }
+  
+    #parking-map {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 480px) {
+    #parking-map {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  
+  /* Error Message Styles */
+  .error {
+    color: #dc3545; /* Red color for errors */
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: center;
+    padding: 10px;
+    background-color: #f8d7da; /* Light red background */
+    border: 1px solid #f5c6cb; /* Red border */
+    border-radius: 5px; /* Rounded corners */
+  }
+  
+  
+  /* Bank Payment Page */
+  .bank-payment {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  .bank-payment h2 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .bank-payment form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .bank-payment label {
+    font-weight: bold;
+  }
+  
+  .bank-payment input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .bank-payment button {
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .bank-payment button:hover {
+    background-color: #218838;
+  }
+  
+  .error {
+    color: #dc3545;
+    text-align: center;
+    padding: 10px;
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+    border-radius: 5px;
+  }
+  
+  .wallet-balance {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+  
+  .wallet-balance h2 {
+    margin-bottom: 10px;
+    color: #007bff;
+  }
+  
+  .wallet-balance p {
+    font-size: 1.2em;
+    color: #333;
+  }
+  
+  

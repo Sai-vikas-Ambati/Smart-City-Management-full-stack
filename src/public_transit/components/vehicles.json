@@ -1,0 +1,27 @@
+{
+    "cabs": [
+      { "id": "CAB001", "latitude": 11.0168, "longitude": 76.9558, "location": "Gandhipuram" },
+      { "id": "CAB002", "latitude": 11.0280, "longitude": 76.9770, "location": "Peelamedu" },
+      { "id": "CAB003", "latitude": 11.0330, "longitude": 76.9366, "location": "RS Puram" },
+      { "id": "CAB004", "latitude": 11.0236, "longitude": 76.9298, "location": "Saibaba Colony" },
+      { "id": "CAB005", "latitude": 11.0456, "longitude": 76.9765, "location": "Saravanampatti" },
+      { "id": "CAB006", "latitude": 11.0147, "longitude": 76.9555, "location": "Town Hall" },
+      { "id": "CAB007", "latitude": 11.0400, "longitude": 76.9499, "location": "Thudiyalur" },
+      { "id": "CAB008", "latitude": 11.0261, "longitude": 76.8997, "location": "Vadavalli" },
+      { "id": "CAB009", "latitude": 11.0016, "longitude": 76.9625, "location": "Podanur" },
+      { "id": "CAB010", "latitude": 11.0663, "longitude": 76.9786, "location": "Kovilpalayam" }
+    ],
+    "trains": [
+      { "id": "TRAIN001", "latitude": 11.0140, "longitude": 76.9660, "location": "Coimbatore Junction" },
+      { "id": "TRAIN002", "latitude": 11.0180, "longitude": 76.9690, "location": "Podanur Junction" },
+      { "id": "TRAIN003", "latitude": 11.0307, "longitude": 76.9632, "location": "Peelamedu Station" },
+      { "id": "TRAIN004", "latitude": 11.0352, "longitude": 76.9772, "location": "Singanallur Station" },
+      { "id": "TRAIN005", "latitude": 11.0495, "longitude": 76.9967, "location": "Irugur Station" },
+      { "id": "TRAIN006", "latitude": 11.0002, "longitude": 76.9761, "location": "Kinathukadavu Station" },
+      { "id": "TRAIN007", "latitude": 10.9934, "longitude": 76.9683, "location": "Madukkarai Station" },
+      { "id": "TRAIN008", "latitude": 11.0896, "longitude": 77.0441, "location": "Sulur Road Station" },
+      { "id": "TRAIN009", "latitude": 11.1527, "longitude": 77.2146, "location": "Tiruppur Station" },
+      { "id": "TRAIN010", "latitude": 11.2183, "longitude": 77.3500, "location": "Avinashi Road Station" }
+    ]
+  }
+  

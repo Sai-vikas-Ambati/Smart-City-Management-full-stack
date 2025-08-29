@@ -1,0 +1,15 @@
+{
+    "notifications": [
+      { "id": "NOTIF001", "message": "Train 001 delayed by 10 minutes" },
+      { "id": "NOTIF002", "message": "Cab service from Peelamedu temporarily unavailable" },
+      { "id": "NOTIF003", "message": "Train 003 canceled due to maintenance" },
+      { "id": "NOTIF004", "message": "Heavy traffic near Gandhipuram, expect delays" },
+      { "id": "NOTIF005", "message": "Cab 007 has been rerouted" },
+      { "id": "NOTIF006", "message": "Train 005 is running on time" },
+      { "id": "NOTIF007", "message": "Cab services in Thudiyalur are limited" },
+      { "id": "NOTIF008", "message": "Weather conditions affecting train schedules" },
+      { "id": "NOTIF009", "message": "Cab 010 is currently unavailable" },
+      { "id": "NOTIF010", "message": "Train 009 will arrive 5 minutes early" }
+    ]
+  }
+  

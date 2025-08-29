@@ -1,0 +1,53 @@
+body {
+    font-family: "Poppins", sans-serif;
+    background: #f4f6f9;
+  }
+  
+  .app {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .app-title {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .input-section {
+    margin: 10px 0;
+  }
+  
+  input {
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    width: 250px;
+    margin-right: 5px;
+    width: 200px;
+    height: 30px;
+  }
+  
+  button {
+    padding: 10px 15px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-left: 20px;
+    position: inherit;
+  }
+  
+  button:hover {
+    background: #0056b3;
+  }
+  
+  .button-group {
+    margin-top: 10px;
+  }
+
+  .header{
+    font-size: 100%;
+  }
+  

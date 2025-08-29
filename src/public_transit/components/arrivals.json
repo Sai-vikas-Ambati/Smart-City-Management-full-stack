@@ -1,0 +1,27 @@
+{
+    "cabs": [
+      { "id": "CAB001", "from": "Gandhipuram", "to": "Peelamedu", "predictedArrivalTime": "5 mins" },
+      { "id": "CAB002", "from": "Peelamedu", "to": "Saravanampatti", "predictedArrivalTime": "8 mins" },
+      { "id": "CAB003", "from": "RS Puram", "to": "Town Hall", "predictedArrivalTime": "6 mins" },
+      { "id": "CAB004", "from": "Saibaba Colony", "to": "Vadavalli", "predictedArrivalTime": "10 mins" },
+      { "id": "CAB005", "from": "Saravanampatti", "to": "Kovilpalayam", "predictedArrivalTime": "12 mins" },
+      { "id": "CAB006", "from": "Town Hall", "to": "Gandhipuram", "predictedArrivalTime": "4 mins" },
+      { "id": "CAB007", "from": "Thudiyalur", "to": "RS Puram", "predictedArrivalTime": "7 mins" },
+      { "id": "CAB008", "from": "Vadavalli", "to": "Saibaba Colony", "predictedArrivalTime": "9 mins" },
+      { "id": "CAB009", "from": "Podanur", "to": "Coimbatore Junction", "predictedArrivalTime": "5 mins" },
+      { "id": "CAB010", "from": "Kovilpalayam", "to": "Saravanampatti", "predictedArrivalTime": "11 mins" }
+    ],
+    "trains": [
+      { "id": "TRAIN001", "from": "Coimbatore Junction", "to": "Podanur Junction", "predictedArrivalTime": "10 mins" },
+      { "id": "TRAIN002", "from": "Podanur Junction", "to": "Madukkarai Station", "predictedArrivalTime": "6 mins" },
+      { "id": "TRAIN003", "from": "Peelamedu Station", "to": "Singanallur Station", "predictedArrivalTime": "8 mins" },
+      { "id": "TRAIN004", "from": "Singanallur Station", "to": "Irugur Station", "predictedArrivalTime": "5 mins" },
+      { "id": "TRAIN005", "from": "Irugur Station", "to": "Sulur Road Station", "predictedArrivalTime": "9 mins" },
+      { "id": "TRAIN006", "from": "Kinathukadavu Station", "to": "Pollachi Junction", "predictedArrivalTime": "15 mins" },
+      { "id": "TRAIN007", "from": "Madukkarai Station", "to": "Coimbatore Junction", "predictedArrivalTime": "7 mins" },
+      { "id": "TRAIN008", "from": "Sulur Road Station", "to": "Tiruppur Station", "predictedArrivalTime": "20 mins" },
+      { "id": "TRAIN009", "from": "Tiruppur Station", "to": "Avinashi Road Station", "predictedArrivalTime": "12 mins" },
+      { "id": "TRAIN010", "from": "Avinashi Road Station", "to": "Coimbatore Junction", "predictedArrivalTime": "18 mins" }
+    ]
+  }
+  
