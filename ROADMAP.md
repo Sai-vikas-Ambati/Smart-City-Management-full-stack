@@ -2,3 +2,4 @@
 - Planned: add user dashboard module
 - Planned: implement admin control panel
 - Planned: integrate real-time traffic monitoring
+- Planned: add alert notification system
