@@ -112,6 +112,17 @@ const App = () => {
           </div>
         </div>
       </div>
+      
+        <div className="metric-card">
+          <div className="metric-header">
+            <h3 className="metric-title">WEATHER INFO</h3>
+            <div className="metric-icon">☀️</div>
+          </div>
+          <h2 className="metric-value">28°C</h2>
+          <div className="metric-trend trend-up">
+            <span>Clear skies today</span>
+          </div>
+        </div>
 
       {/* Charts Section */}
       <div className="charts-container">
