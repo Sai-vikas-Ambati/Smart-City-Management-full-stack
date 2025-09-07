@@ -160,7 +160,7 @@ function App() {
         </main>
 
         <footer>
-          <p>&copy; 2023 Smart Parking Solutions. All rights reserved.</p>
+          <p>&copy; 2025 Smart Parking Solutions. All rights reserved.</p>
           <p style={{ fontSize: "12px", color: "#9ca3af" }}>✨ Powered by Smart City Management</p>
         </footer>
       </div>
