@@ -92,6 +92,12 @@ const RSVP: React.FC<RSVPProps> = ({ events }) => {
       padding: "12px",
       border: "1px solid #e5e7eb",
       borderRadius: "8px"
+    },
+    footerNote: {
+      fontSize: "12px",
+      color: "#9ca3af",
+      marginTop: "12px",
+      textAlign: "center" as const
     }
   };
 
@@ -110,7 +116,9 @@ const RSVP: React.FC<RSVPProps> = ({ events }) => {
               <li key={event.id} style={styles.eventItem}>
                 <div style={styles.eventInfo}>
                   <p style={styles.eventName}>{event.name}</p>
-                  <p style={styles.eventDetails}>{event.date} - {event.location}</p>
+                  <p style={styles.eventDetails}>
+                    {event.date} - {event.location}
+                  </p>
                 </div>
                 <button
                   onClick={() => handleRSVP(event)}
@@ -140,12 +148,17 @@ const RSVP: React.FC<RSVPProps> = ({ events }) => {
             {rsvpEvents.map((event) => (
               <li key={event.id} style={styles.rsvpEventItem}>
                 <p style={styles.eventName}>{event.name}</p>
-                <p style={styles.eventDetails}>{event.date} - {event.location}</p>
+                <p style={styles.eventDetails}>
+                  {event.date} - {event.location}
+                </p>
               </li>
             ))}
           </ul>
         )}
       </div>
+
+      {/* Small footer change */}
+      <p style={styles.footerNote}>✨ Powered by Smart City Management</p>
     </div>
   );
 };
