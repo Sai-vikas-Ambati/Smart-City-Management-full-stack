@@ -107,7 +107,8 @@ function App() {
     <Router>
       <div className="App" style={{ backgroundImage: `url(${parkingLotImage})` }}>
         <header className = "heading">
-          <h1>Smart Parking Solutions</h1>
+          <h1>🚗 Smart Parking Solutions</h1>
+
           <p>Find available parking spaces in real-time and save time!</p>
           <nav>
             <Link to="/">Home</Link> | <Link to="/wallet-balance">Check Wallet Balance</Link>
