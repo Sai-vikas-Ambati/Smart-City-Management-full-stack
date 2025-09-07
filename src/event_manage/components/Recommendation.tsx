@@ -50,6 +50,8 @@ const Recommendation: React.FC<RecommendationProps> = ({ events }) => {
                 <p className="text-gray-500">
                   👥 Co-Hosts: {coHostsArray.length > 0 ? coHostsArray.join(", ") : "No Co-Hosts"}
                 </p>
+                {/* Small change: added footer text */}
+                <p className="text-xs text-gray-400 mt-2">✨ Powered by Smart City Management</p>
               </div>
             );
           })}
