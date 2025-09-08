@@ -168,4 +168,4 @@ function App() {
   );
 }
 
-export default App;
+export default App;// Parking cost: ₹2.5 for every 5 minutes
