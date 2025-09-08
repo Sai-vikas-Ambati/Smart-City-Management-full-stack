@@ -103,7 +103,7 @@ const RSVP: React.FC<RSVPProps> = ({ events }) => {
 
   return (
     <div style={styles.container}>
-      <h2 style={styles.header}>📅 RSVP to an Event</h2>
+      <h2 style={styles.header}>📅 RSVP for Events</h2>
 
       {/* Available Events List */}
       <div style={styles.section}>
