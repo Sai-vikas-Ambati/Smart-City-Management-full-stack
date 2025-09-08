@@ -15,6 +15,7 @@ interface Event {
 interface RecommendationProps {
   events: Event[];
 }
+// NOTE: Temporary comment for testing commits
 
 const Recommendation: React.FC<RecommendationProps> = ({ events }) => {
   return (
@@ -62,3 +63,4 @@ const Recommendation: React.FC<RecommendationProps> = ({ events }) => {
 };
 
 export default Recommendation;
+// NOTE: Temporary comment for testing commits
