@@ -29,7 +29,7 @@ const Recommendation: React.FC<RecommendationProps> = ({ events }) => {
         <div className="space-y-4">
           {events.map((event, index) => {
             // Ensure coHosts is always treated as an array
-            const coHostsArray = Array.isArray(event.coHosts)
+            const coHostsList = Array.isArray(event.coHosts)
               ? event.coHosts
               : event.coHosts
               ? [event.coHosts]
@@ -49,7 +49,7 @@ const Recommendation: React.FC<RecommendationProps> = ({ events }) => {
                   🔁 Recurring: {event.recurring ? "Yes" : "No"}
                 </p>
                 <p className="text-gray-500">
-                  👥 Co-Hosts: {coHostsArray.length > 0 ? coHostsArray.join(", ") : "No Co-Hosts"}
+                  👥 Co-Hosts: {coHostsList.length > 0 ? coHostsList.join(", ") : "No Co-Hosts"}
                 </p>
                 {/* Small change: added footer text */}
                 <p className="text-xs text-gray-400 mt-2">✨ Powered by Smart City Management</p>
