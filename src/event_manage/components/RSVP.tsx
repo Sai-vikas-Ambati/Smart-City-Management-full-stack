@@ -164,3 +164,4 @@ const RSVP: React.FC<RSVPProps> = ({ events }) => {
 };
 
 export default RSVP;
+// TODO: Enhance RSVP to allow un-RSVP in future
